@@ -1,4 +1,11 @@
-# Intune Device Compliance Report (Graph Safe Query)
+# # Device Compliance Report Script
+# --------------------------------
+# This script simulates pulling device compliance data from Intune.
+# In a real environment, it would connect to Microsoft Graph API.
+#
+# Use case:
+# - Identify non-compliant devices
+# - Export compliance reportsIntune Device Compliance Report (Graph Safe Query)
 
 Import-Module Microsoft.Graph
 
